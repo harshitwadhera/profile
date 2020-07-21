@@ -3,18 +3,16 @@
     overflow: hidden;
     position: relative;
     background-size: 100% 100%;
-  background-image: url('../assets/images/website/coding2.jpg');
-  
-  background-repeat: no-repeat;
-  background-position: center center;
-  height: 100vh;
- 
+    background-image: url("../assets/images/website/coding2.jpg");
+
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
 }
 
 .container-wrap {
     max-width: 1170px;
     margin: 0 auto;
-    
 }
 
 #colorlib-main {
@@ -23,7 +21,6 @@
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
-     
 }
 
 @media screen and (max-width: 768px) {
@@ -33,21 +30,3 @@
     }
 }
 
-// #example1 {
-// 	width: 100%;
-//     overflow: hidden;
-//     position: relative;
-//     background-size: 100% 100%;
-//   background-image: url('/assets/images/website/coding.jpg');
-//   background-repeat: no-repeat;
-//   background-position: center center;
-	
- 
-// }
-
-// .coverPage {
-//   background-size: 100% 100%;
-//   background-image: url('/assets/images/website/coding.jpg');
-//   background-repeat: no-repeat;
-//   background-position: center center;
-// }
