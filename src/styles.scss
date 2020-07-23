@@ -28,6 +28,7 @@ body.offcanvas {
 
 .height100vh {
   height: 100vh;
+ // overflow-y: scroll;
 }
 
 .backgroundWhite {
@@ -61,6 +62,11 @@ body.offcanvas {
     padding-top: 5em;
     padding-bottom: 8em;
   }
+  .height100vh {
+    height: 100vh;
+    overflow-y: scroll;
+  }
+
 }
 
 .colorlib-narrow-content {
