@@ -285,7 +285,25 @@
 	     	]
 		})
 	};
+	var myGroup = function() {
+		//var $myGroup = $('#myGroup');
+		$(document).click(function (e) {
 
+		
+			$('#myGroup').on('click', function(event){
+				console.log("click");
+				var $myGroup = $('#myGroup');
+				$('.collapse').collapse('hide');
+			});
+		});
+		
+	
+
+	}
+
+	
+	
+	
 	// Document on load.
 	$(function(){
 		fullHeight();
@@ -298,7 +316,7 @@
 	
 	//	navigationSection();
 	
-
+	myGroup();
 
 		mobileMenuOutsideClick();
 	//	sliderMain();
@@ -308,3 +326,4 @@
 
 
 }());
+
