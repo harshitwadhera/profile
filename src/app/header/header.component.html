@@ -9,16 +9,16 @@
     <nav id="colorlib-main-menu" role="navigation" class="navbar">
       <!-- <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne"></div> -->
     <div id="navbar" class="collapse" aria-expanded="false">
-    <ul>
-    <li class="active"><a [routerLink]="['/home']" data-nav-section="home">Home</a></li>
-    <li><a  [routerLink]="['/about']" data-nav-section="about">About</a></li>
+    <ul class="pointerForlink">
+    <li routerLinkActive="active"><a [routerLink]="['/home']" data-nav-section="home">Home</a></li>
+    <li routerLinkActive="active"><a  [routerLink]="['/about']" data-nav-section="about">About</a></li>
     <!-- <li><a  data-nav-section="services">Services</a></li> -->
-    <li><a [routerLink]="['/skills']" data-nav-section="skills">Skills</a></li>
-    <li><a [routerLink]="['/education']" data-nav-section="education">Education</a></li>
-    <li><a [routerLink]="['/experience']" data-nav-section="experience">Experience</a></li>
-    <li><a [routerLink]="['/projects']" data-nav-section="work">Work</a></li>
+    <li routerLinkActive="active"><a [routerLink]="['/skills']" data-nav-section="skills">Skills</a></li>
+    <li routerLinkActive="active"><a [routerLink]="['/education']" data-nav-section="education">Education</a></li>
+    <li routerLinkActive="active"> <a [routerLink]="['/experience']" data-nav-section="experience">Experience</a></li>
+    <li routerLinkActive="active"><a [routerLink]="['/projects']" data-nav-section="work">Work</a></li>
     
-    <li><a [routerLink]="['/contact']" data-nav-section="contact">Contact</a></li>
+    <li routerLinkActive="active"><a [routerLink]="['/contact']" data-nav-section="contact">Contact</a></li>
     </ul>
     </div>
     </nav>

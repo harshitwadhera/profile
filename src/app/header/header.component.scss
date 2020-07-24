@@ -5,7 +5,7 @@
     float: left;
     width: 300px;
     position: fixed;
-    overflow-y: scroll;
+    //overflow-y: scroll;
     z-index: 1001;
     background: #f2f3f7;
     -webkit-transition: 0.5s;
@@ -87,12 +87,14 @@
 #colorlib-aside #colorlib-main-menu ul li a {
     color: rgba(0, 0, 0, 0.7);
     text-decoration: none;
+    cursor: pointer;
     position: relative;
     padding: 10px 0;
     font-family: quicksand, Arial, sans-serif;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
+    
 }
 #colorlib-aside #colorlib-main-menu ul li a:after {
     content: "";
@@ -117,6 +119,7 @@
 #colorlib-aside #colorlib-main-menu ul li a:hover {
     text-decoration: none;
     color: #000;
+   
 }
 #colorlib-aside #colorlib-main-menu ul li a:hover:after {
     visibility: visible;
@@ -250,3 +253,4 @@ Header Responsive
       .colorlib-nav-toggle {
         opacity: 1;
         visibility: visible; } }
+
