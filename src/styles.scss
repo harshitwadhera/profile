@@ -269,3 +269,17 @@ body.offcanvas {
 .services.color-6 .icon:after {
   border-color: #4054b2 transparent transparent transparent;
 }
+
+#colorlib-main {
+  width: calc(100% - 300px);
+  float: right;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s; 
+  background: #fff no-repeat center center;}
+@media screen and (max-width: 768px) {
+    #colorlib-main {
+      width: 100%;
+      padding: 0 1em;
+      background: #fff no-repeat center center;
+     } }
