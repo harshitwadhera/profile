@@ -102,6 +102,13 @@
         opacity: 1;
         background: rgba(0, 0, 0, 0.4);
     }
+
+    .project .desc .con {
+        padding: 140px 10px;
+        display: block;
+        position: relative;
+        height: 300px;
+    }
     .project .desc h3 {
         font-style: 28px;
         -webkit-transform: translate3d(0, 0, 0);
