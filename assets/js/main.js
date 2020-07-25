@@ -291,10 +291,23 @@
 
 		
 			$('#myGroup').on('click', function(event){
-				console.log("click");
+				
 				var $myGroup = $('#myGroup');
+				
 				$('.collapse').collapse('hide');
+
+			
+				//$('.myGroup a').removeClass('active');
+				//	$(this).addClass('active');
+					
 			});
+
+			$('.myGroup a').click(function(){
+				if($('.myGroup a').hasClass('active')){
+					$('.myGroup a').removeClass('active');
+				}				
+				$(this).addClass('active');
+			})
 		});
 		
 	
