@@ -287,29 +287,38 @@
 	};
 	var myGroup = function() {
 		//var $myGroup = $('#myGroup');
-		$(document).click(function (e) {
-
+		$('.myGroup a').click(function(){
+			var hasActive = $(this).hasClass('active');
+			$('.myGroup a').removeClass('active');
+			
+			if(!hasActive){
+				$(this).addClass('active');
+			}
+			
+			// if($('.myGroup a').hasClass('active')){
+			// 	$('.myGroup a').removeClass('active');
+			// }else{
+			// 	$(this).addClass('active');
+			// }
+			
+			$('.collapse').collapse('hide');			
+			
+		})
+		// $(document).click(function (e) {
+		// 	console.log("sad");
 		
-			$('#myGroup').on('click', function(event){
+		// 	$('#myGroup').on('click', function(event){
 				
-				var $myGroup = $('#myGroup');
+		// 		var $myGroup = $('#myGroup');
 				
-				$('.collapse').collapse('hide');
-
-			
-				//$('.myGroup a').removeClass('active');
-				//	$(this).addClass('active');
-				$('.myGroup a').click(function(){
-					if($('.myGroup a').hasClass('active')){
-						$('.myGroup a').removeClass('active');
-					}				
-					$(this).addClass('active');
-				})
+		// 		//$('.myGroup a').removeClass('active');
+		// 		//	$(this).addClass('active');
+				
 					
-			});
+		// 	});
 
 			
-		});
+		// });
 		
 	
 
