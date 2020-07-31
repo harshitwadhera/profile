@@ -1,0 +1,122 @@
+
+#colorlib-hero {
+    min-height: 500px;
+    background: #fff no-repeat center center;
+    width: 100%;
+    float: left;
+    margin-bottom: 10em;
+    clear: both;
+
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-size: 100% 100%;
+    background-image: url("../../assets/images/website/btc.jpg");
+
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    
+}
+
+
+
+#colorlib-hero .slider-text {
+    display: table;
+    min-height: 500px;
+    z-index: 9;
+    //width:100%;
+    
+}
+#colorlib-hero .slider-text > .slider-text-inner {
+    display: table-cell;
+    vertical-align: middle;
+    min-height: 700px;
+   // padding: 2.5em;
+   color: #fff;
+
+        position: absolute;
+    /* left: 50%; */
+    margin: 20px 0% 0 35%;
+    /* width: 200%;*/
+   // width:100%;
+}
+@media screen and (max-width: 768px) {
+    #colorlib-hero  .slider-text > .slider-text-inner {
+        text-align: center;
+        color: #fff;
+
+        position: absolute;
+    /* left: 50%; */
+    margin: 20px 0% 0 20%;
+    }
+   
+}
+#colorlib-hero  .slider-text > .slider-text-inner h1,
+#colorlib-hero  .slider-text > .slider-text-inner h2 {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: playfair display, Georgia, serif;
+    
+}
+#colorlib-hero .slider-text > .slider-text-inner h1 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    line-height: 1.3;
+    font-weight: 400;
+}
+@media screen and (max-width: 768px) {
+    #colorlib-hero  .slider-text > .slider-text-inner h1 {
+        font-size: 28px;
+    }
+}
+#colorlib-hero .slider-text > .slider-text-inner h2 {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    font-weight: 300;
+    font-family: quicksand, Arial, sans-serif;
+}
+
+
+
+#colorlib-hero  .slider-text > .slider-text-inner p {
+    margin-top: 150%;
+    margin-left: 10%;
+}
+#colorlib-hero  .slider-text > .slider-text-inner .btn {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+    padding: 10px 15px !important;
+    border: none;
+    font-weight: 400;
+}
+#colorlib-hero .slider-text > .slider-text-inner .btn.btn-learn {
+    color: #fff;
+    border: 1px solid #fff;
+    background: 0 0 !important;
+}
+#colorlib-hero .slider-text > .slider-text-inner .btn.btn-learn:hover {
+    background: 0 0 !important;
+    border: 1px solid #fff !important;
+}
+@media screen and  (min-width : 360px) and (max-width: 768px) {
+    #colorlib-hero  .slider-text > .slider-text-inner .btn {
+        width: 100%;
+    }
+    #colorlib-hero  .slider-text > .slider-text-inner p {
+        margin-top: 220%;
+        margin-left: 10%;
+    }
+    
+}
+
+@media screen and (min-width : 176px) and  (max-width : 360px) {
+    #colorlib-hero  .slider-text > .slider-text-inner p {
+        margin-top: 180%;
+        margin-left: 10%;
+    }
+}

@@ -8,6 +8,8 @@ import { ExperienceComponent } from './experience/experience.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ContactComponent } from './contact/contact.component';
 import { AppComponent } from './app.component';
+import { About2Component } from './about2/about2.component';
+import { Home2Component } from './home2/home2.component';
 
 
 const routes: Routes = [
@@ -18,6 +20,8 @@ const routes: Routes = [
   {path:"experience",component:ExperienceComponent},
   {path:"projects",component:ProjectsComponent},
   {path:"contact",component:ContactComponent},
+  {path:"about2",component:About2Component},
+  {path:"home2",component:Home2Component},
   {path:"**",redirectTo:'/home',pathMatch:'full'},
 ];
 
