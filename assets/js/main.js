@@ -299,15 +299,16 @@
 			
 				//$('.myGroup a').removeClass('active');
 				//	$(this).addClass('active');
+				$('.myGroup a').click(function(){
+					if($('.myGroup a').hasClass('active')){
+						$('.myGroup a').removeClass('active');
+					}				
+					$(this).addClass('active');
+				})
 					
 			});
 
-			$('.myGroup a').click(function(){
-				if($('.myGroup a').hasClass('active')){
-					$('.myGroup a').removeClass('active');
-				}				
-				$(this).addClass('active');
-			})
+			
 		});
 		
 	
