@@ -16,7 +16,7 @@
     background-repeat: no-repeat;
     background-position: center center;
     height: 100vh;
-    
+    text-align: center;
 }
 
 
@@ -42,13 +42,25 @@
    // width:100%;
 }
 @media screen and (max-width: 768px) {
+    #colorlib-hero {
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        background-size: 100% 100%;
+        background-image: url("../../assets/images/website/btc2.jpg");
+    }
     #colorlib-hero  .slider-text > .slider-text-inner {
-        text-align: center;
-        color: #fff;
+    //     text-align: center;
+    //     color: #fff;
 
-        position: absolute;
-    /* left: 50%; */
-    margin: 20px 0% 0 20%;
+    //     position: absolute;
+    // /* left: 50%; */
+    // margin: 20px 0% 0 20%;
+    position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
     }
    
 }
@@ -108,7 +120,7 @@
         width: 100%;
     }
     #colorlib-hero  .slider-text > .slider-text-inner p {
-        margin-top: 220%;
+        margin-top: 0;
         margin-left: 10%;
     }
     
@@ -116,7 +128,7 @@
 
 @media screen and (min-width : 176px) and  (max-width : 360px) {
     #colorlib-hero  .slider-text > .slider-text-inner p {
-        margin-top: 180%;
+        margin-top: 0%;
         margin-left: 10%;
     }
 }
