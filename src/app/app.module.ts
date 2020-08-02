@@ -13,6 +13,8 @@ import { ProjectsComponent } from './projects/projects.component';
 import { ContactComponent } from './contact/contact.component';
 import { About2Component } from './about2/about2.component';
 import { Home2Component } from './home2/home2.component';
+import { Skills2Component } from './skills2/skills2.component';
+import { GoogleChartsModule } from 'angular-google-charts';
 
 @NgModule({
   declarations: [
@@ -26,11 +28,13 @@ import { Home2Component } from './home2/home2.component';
     ProjectsComponent,
     ContactComponent,
     About2Component,
-    Home2Component
+    Home2Component,
+    Skills2Component
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    GoogleChartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

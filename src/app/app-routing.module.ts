@@ -10,10 +10,10 @@ import { ContactComponent } from './contact/contact.component';
 import { AppComponent } from './app.component';
 import { About2Component } from './about2/about2.component';
 import { Home2Component } from './home2/home2.component';
-
+import { Skills2Component } from './skills2/skills2.component';
 
 const routes: Routes = [
-  {path:"home",component:HomeComponent},
+  {path:"home2",component:HomeComponent},
   {path:"about",component:AboutComponent},
   {path:"skills",component:SkillsComponent},
   {path:"education",component:EducationComponent},
@@ -21,7 +21,8 @@ const routes: Routes = [
   {path:"projects",component:ProjectsComponent},
   {path:"contact",component:ContactComponent},
   {path:"about2",component:About2Component},
-  {path:"home2",component:Home2Component},
+  {path:"home",component:Home2Component},
+  {path:"skills2",component:Skills2Component},
   {path:"**",redirectTo:'/home',pathMatch:'full'},
 ];
 
