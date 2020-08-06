@@ -134,6 +134,13 @@
         -webkit-transform: translate3d(0, 0, 0);
         transform: translate3d(0, 0, 0);
     }
+
+    .work-menu span a {
+        color: #fff;
+        cursor: pointer;
+        margin-bottom: 10px;
+        float: left;
+    }
 }
 .project:hover .desc {
     opacity: 1;

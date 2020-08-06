@@ -51,7 +51,7 @@
 			$('#colorlib-counter').waypoint( function( direction ) {
 										
 				if( direction === 'down' && !$(this.element).hasClass('animated') ) {
-					setTimeout( counter , 400);					
+					//setTimeout( counter , 400);					
 					$(this.element).addClass('animated');
 				}
 			} , { offset: '90%' } );
@@ -157,7 +157,8 @@
 
 		    if ( navbar.is(':visible')) {
 		    	navbar.removeClass('in');
-		    	navbar.attr('aria-expanded', 'false');
+				navbar.attr('aria-expanded', 'false');
+				$('body').removeClass('offcanvas');
 		    	$('.js-colorlib-nav-toggle').removeClass('active');
 		    }
 
@@ -330,20 +331,20 @@
 	// Document on load.
 	$(function(){
 		fullHeight();
-		//counter();
-		//counterWayPoint();
+	//	counter();
+	//	counterWayPoint();
 	//	contentWayPoint();
 		burgerMenu();
 
 		clickMenu();
 	
-	//	navigationSection();
+		navigationSection();
 	
 	myGroup();
 
 		mobileMenuOutsideClick();
-	//	sliderMain();
-	//	stickyFunction();
+		//sliderMain();
+		//stickyFunction();
 	//	owlCrouselFeatureSlide();
 	});
 
