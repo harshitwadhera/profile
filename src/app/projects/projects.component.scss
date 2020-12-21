@@ -1,3 +1,22 @@
+.colorlib-work {
+    min-height: 500px;
+    background: #fff no-repeat center center;
+    width: 100%;
+    float: left;
+    margin-bottom: 10em;
+    clear: both;
+
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-size: 100% 100%;
+    background-image: -webkit-linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)),url("../../assets/images/website/workBackGroudImg.png");
+
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+color: #fff;
+}
 .work-menu span {
     margin-left: 10px;
 }

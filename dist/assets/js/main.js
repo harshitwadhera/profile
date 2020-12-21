@@ -286,44 +286,44 @@
 	     	]
 		})
 	};
-	var myGroup = function() {
-		//var $myGroup = $('#myGroup');
-		$('.myGroup a').click(function(){
-			var hasActive = $(this).hasClass('active');
-			$('.myGroup a').removeClass('active');
+	// var myGroup = function() {
+	// 	//var $myGroup = $('#myGroup');
+	// 	$('.myGroup a').click(function(){
+	// 		var hasActive = $(this).hasClass('active');
+	// 		$('.myGroup a').removeClass('active');
 			
-			if(!hasActive){
-				$(this).addClass('active');
-			}
+	// 		if(!hasActive){
+	// 			$(this).addClass('active');
+	// 		}
 			
-			// if($('.myGroup a').hasClass('active')){
-			// 	$('.myGroup a').removeClass('active');
-			// }else{
-			// 	$(this).addClass('active');
-			// }
+	// 		// if($('.myGroup a').hasClass('active')){
+	// 		// 	$('.myGroup a').removeClass('active');
+	// 		// }else{
+	// 		// 	$(this).addClass('active');
+	// 		// }
 			
-			$('.collapse').collapse('hide');			
+	// 		$('.collapse').collapse('hide');			
 			
-		})
-		// $(document).click(function (e) {
-		// 	console.log("sad");
+	// 	})
+	// 	// $(document).click(function (e) {
+	// 	// 	console.log("sad");
 		
-		// 	$('#myGroup').on('click', function(event){
+	// 	// 	$('#myGroup').on('click', function(event){
 				
-		// 		var $myGroup = $('#myGroup');
+	// 	// 		var $myGroup = $('#myGroup');
 				
-		// 		//$('.myGroup a').removeClass('active');
-		// 		//	$(this).addClass('active');
+	// 	// 		//$('.myGroup a').removeClass('active');
+	// 	// 		//	$(this).addClass('active');
 				
 					
-		// 	});
+	// 	// 	});
 
 			
-		// });
+	// 	// });
 		
 	
 
-	}
+	// }
 
 	
 	
