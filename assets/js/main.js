@@ -1,4 +1,4 @@
-;(function () {
+(function () {
 	
 	'use strict';
 
@@ -291,7 +291,7 @@
 		$('.myGroup a').click(function(){
 			var hasActive = $(this).hasClass('active');
 			$('.myGroup a').removeClass('active');
-			
+			$('.collapse').removeClass('show');		
 			if(!hasActive){
 				$(this).addClass('active');
 			}
@@ -302,7 +302,7 @@
 			// 	$(this).addClass('active');
 			// }
 			
-			$('.collapse').collapse('hide');			
+			//$('.collapse').collapse('hide');			
 			
 		})
 		// $(document).click(function (e) {
